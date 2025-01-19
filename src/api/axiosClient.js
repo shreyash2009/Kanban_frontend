@@ -1,7 +1,7 @@
 import axios from 'axios'
 import queryString from 'query-string'
 
-const baseUrl = 'https://kanban-server-x8px.onrender.com/'
+const baseUrl = 'https://kanban-server-x8px.onrender.com/api/v1/'
 const getToken = () => localStorage.getItem('token')
 
 const axiosClient = axios.create({
